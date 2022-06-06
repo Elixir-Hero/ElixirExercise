@@ -1,13 +1,6 @@
-defmodule  HelloWorld do
-  def SayHello do
+defmodule Hello do
 
-  end
+  @say_hello "Hello World"
+  def hello, do: @say_hello
 
-  def SayHi do
-
-  end
-
-  def SayHelloWorld do
-
-  end
 end
